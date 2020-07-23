@@ -1,0 +1,57 @@
+.WeddingHeader {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.WeddingHeader h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    color-interpolation-filters: sRGB;
+}
+
+.nav-link.active {
+    width: 10%;
+    color: red;
+}
+
+.btn.btn-secondary.dropdown-toggle {
+    background-color: transparent;
+    border: none;
+    margin-left: .3%;
+}
+
+#dropdownMenuButton.btn.btn-secondary.dropdown-toggle {
+    color: red;
+}
+
+.dropdown-menu.show {
+    background-color: transparent;
+    border: none;
+}
+
+.dropdown-item {
+    color: red;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+    color: red;
+}
+
+html, body {
+    background-image: url(../WeddingWebsite/PortfolioAssets/Kissing.jpg); 
+    background-size: cover;
+    background-attachment: scroll;
+    background-position-y: top;
+    z-index: auto;
+}
