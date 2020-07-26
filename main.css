@@ -1,29 +1,104 @@
-.WeddingHeader {
-    display: flex;
-    justify-content: center;
-    width: auto;
+@media only screen and (max-device-width: 550px) {
+    .wrapper {
+        width: 540px;
+    }
+
+    .header {
+        background-image: url(media-queries-phone.jpg);
+        height: 93px;
+        position: relative;
+    }
+
+    h1 {
+        font-size: 7vw !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    #countdown {
+        font-size: 4.5vw !important;
+    }
+
+    .nav-link.active {
+        font-size: 2.5vw;
+    }
+
+    #dropdownMenuButton.btn.btn-secondary.dropdown-toggle {
+        font-size: 2.5vw;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .nav-item {
+        display: flex !important;
+        justify-content: space-between !important;
+        width: 90vw !important;
+        /* margin-left: none;
+        margin-right: none; */
+    }
+
+    p {
+        font-size: 4.5vw !important;
+    }
+
 }
 
-.WeddingHeader h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: White;
-    font-weight: normal;
+html, body {
+  height: 100vh;
+  width: 100vw;
+  background: lightslategray;
+  padding: none;
+  margin: 0;
+}
+
+.wrapper {
+  margin: auto;
+}
+
+.Jumbotron {
     display: flex;
     justify-content: center;
-    width: auto;
+    width: 100vw;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: White;
+    font-size: 60px;
+    /* font-weight: normal;
+    display: flex;
+    justify-content: center; */
 }
 
 #countdown {
     display: flex;
     justify-content: center;
     color: black;
-    padding-top: .3%;
+    padding-top: .3vw;
+    font-size: 20px;
 }
 
-.nav.nav.flex {
-    width: 75%;
+.navbar.navbar-expand-md {
+    background: transparent;
+    padding-left: none;
+    padding-right: none;
+}
+
+.navbar-nav {
+    width: 100vw;
+}
+
+.nav-item {
     display: flex;
+    flex-direction: row;
+    width: 75vw;
+    margin: auto;
     justify-content: space-evenly;
+}
+
+.Picture{
+    display: flex;
+    justify-content: center;
 }
 
 img {
@@ -38,7 +113,7 @@ img {
 }
 
 .nav-link.active {
-    width: 10%;
+    width: 10vw;
     color: White;
 }
 
@@ -46,7 +121,6 @@ img {
     background-color: transparent;
     border: none;
 }
-
 #dropdownMenuButton.btn.btn-secondary.dropdown-toggle {
     color: White;
 }
@@ -65,45 +139,38 @@ img {
     color: White;
 }
 
-.Picture{
-    padding: .5%;
-    display: flex;
-    justify-content: center;
-}
-
 .WeddingDetails {
     color: white;
     font-weight: bolder;
-    font-size: 45pt;
+    font-size: 20vw;
     padding-top: .5%;
     padding-bottom: none;
     display: flex;
     justify-content: center;
+    width: 100vw;
 }
 
-.info {
-    width: 50%;
-    height: max-content;
+.Info {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+
 }
 
 p {
+    display: flex;
     margin: none;
+    font-size: 40px;
 }
 
-.date {
+.Date {
+    display: flex;
     padding: none;
     margin-bottom: none;
 }
 
 .Location {
-    width: max-content;
+    display: flex;
+    flex-direction: column;;
     padding: none;
     margin-bottom: none;
-}
-
-html, body {
-    background-color: lightslategray;
-    z-index: auto;
 }
