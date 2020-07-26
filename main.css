@@ -20,11 +20,11 @@
     }
 
     .nav-link.active {
-        font-size: 2.5vw;
+        font-size: 2.5vw !important;
     }
 
     #dropdownMenuButton.btn.btn-secondary.dropdown-toggle {
-        font-size: 2.5vw;
+        font-size: 2.5vw !important;
         padding-left: 0;
         padding-right: 0;
     }
@@ -33,8 +33,11 @@
         display: flex !important;
         justify-content: space-between !important;
         width: 90vw !important;
-        /* margin-left: none;
-        margin-right: none; */
+    }
+
+    img {
+        height: 65% !important;
+        width: 65% !important;
     }
 
     p {
@@ -115,6 +118,7 @@ img {
 .nav-link.active {
     width: 10vw;
     color: White;
+    font-size: 20px;
 }
 
 .btn.btn-secondary.dropdown-toggle {
@@ -123,6 +127,7 @@ img {
 }
 #dropdownMenuButton.btn.btn-secondary.dropdown-toggle {
     color: White;
+    font-size: 20px;
 }
 
 .dropdown-menu.show {
@@ -159,7 +164,7 @@ img {
 p {
     display: flex;
     margin: none;
-    font-size: 40px;
+    font-size: 65px;
 }
 
 .Date {
