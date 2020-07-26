@@ -1,5 +1,5 @@
-@media only screen and (max-device-width: 550px) {
-    .wrapper {
+@media only screen and (max-device-width: 655px) {
+    /* .wrapper {
         width: 540px;
     }
 
@@ -7,7 +7,7 @@
         background-image: url(media-queries-phone.jpg);
         height: 93px;
         position: relative;
-    }
+    } */
 
     h1 {
         font-size: 7vw !important;
