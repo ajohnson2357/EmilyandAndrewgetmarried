@@ -1,14 +1,4 @@
 @media only screen and (max-device-width: 1400px) {
-    /* .wrapper {
-        width: 540px;
-    }
-
-    .header {
-        background-image: url(media-queries-phone.jpg);
-        height: 93px;
-        position: relative;
-    } */
-
     h1 {
         font-size: 7vw !important;
         display: flex;
@@ -48,12 +38,81 @@
         width: 75vw !important;
     }
 
+    .OurStory {
+        width: 90vw !important;
+        padding-top: 3vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .OurStory h3 {
+        display: flex;
+        justify-content: center;
+        color: slategray;
+        margin-bottom: 2vw;
+    }
+
+    .WeddingParty {
+        padding-top: 3vw;
+        padding-bottom: 5vw;
+        color: lightslategray;
+    }
+    
+    .WPcss {
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .Women {
+        margin-left: 0 !important;
+        display: flex;
+        flex-direction: column;
+        width: 50vw !important;
+        font-size: 2vw;
+    }
+    
+    .Men {
+        margin-left: 3vw;
+        display: flex;
+        flex-direction: column;
+        width: 50vw !important;
+        font-size: 2vw;
+    }
+
+    .Women h5 {
+        font-size: 4vw;
+        margin-left: 3vw !important;
+    }
+
+    .Men h5 {
+        font-size: 4vw;
+    }
+
+    .Women h2 {
+        font-size: 7vw;
+    }
+
+    .Men h2 {
+        font-size: 7vw;
+    }
+    
+    .Amy, .Kait, .Bekah, .Katie, .Aubrey, .Steph, .Jared, .Cooper, .Gabe, .Seth, .Garrett, .Aaron {
+        width: 25vw;
+    }
+
+    .WP {
+        border-radius: 50% !important;
+        width: 9vw !important;
+        height: 9vw !important;
+    }
+
 }
 
 html, body {
   height: 100%;
   width: 100%;
-  background: lightslategray;
+  background: rgb(0, 54, 54);
   padding: none;
   margin: 0;
 }
@@ -73,7 +132,7 @@ h1 {
 #countdown {
     display: flex;
     justify-content: center;
-    color: black;
+    color: lightslategray;
     padding-top: .3vw;
     font-size: 20px;
 }
@@ -211,10 +270,69 @@ p {
     font-size: 4vw;
 } */
 
+.OurStory {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    padding-bottom: 5vw;
+    padding-top: 3vw;
+}
+
+.OurStory h3 {
+    display: flex;
+    justify-content: center;
+    color: slategray;
+    margin-bottom: 2vw;
+}
+
+.OurStory p {
+    font-size: 1vw;
+    color: lightslategray
+}
+
+.WeddingParty {
+    padding-top: 3vw;
+    padding-bottom: 5vw;
+    color: lightslategray;
+}
+
+.WPcss {
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.Women {
+    margin-left: 15vw;
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+}
+
+.Men {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+}
+
+.Amy, .Kait, .Bekah, .Katie, .Aubrey, .Steph, .Jared, .Cooper, .Gabe, .Seth, .Garrett, .Aaron {
+    width: 25vw;
+}
+
+.WP {
+    border-radius: 50%;
+    width: 9vw;
+    height: 9vw;
+}
+
 .map {
     display: flex;
     justify-content: center;
     border: none;
     padding: none;
-    margin: none;
+    margin-bottom: 5vw;
 }
