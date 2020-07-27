@@ -103,8 +103,8 @@
 
     .WP {
         border-radius: 50% !important;
-        width: 9vw !important;
-        height: 9vw !important;
+        width: 11vw !important;
+        height: 11vw !important;
     }
 
 }
@@ -354,8 +354,8 @@ p {
 
 .WP {
     border-radius: 50%;
-    width: 9vw;
-    height: 9vw;
+    width: 12vw;
+    height: 12vw;
 }
 
 .map {
