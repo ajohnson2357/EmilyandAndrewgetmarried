@@ -117,6 +117,10 @@ html, body {
   margin: 0;
 }
 
+p {
+    color: lightslategray;
+}
+
 .Jumbotron {
     display: flex;
     justify-content: center;
@@ -204,7 +208,7 @@ img {
     color: white;
     font-weight: bolder;
     font-size: 20vw;
-    padding-top: .5%;
+    padding-top: .3vw;
     padding-bottom: none;
     display: flex;
     justify-content: center;
@@ -228,11 +232,21 @@ p {
     margin-bottom: none;
 }
 
+.Date p {
+    font-size: 4.25vw;
+    color: slategray;
+}
+
 .Location {
     display: flex;
     flex-direction: column;;
     padding: none;
     margin-bottom: none;
+}
+
+.Location p {
+    font-size: 4.25vw;
+    color: slategray;
 }
 
 .Timeline {
@@ -244,7 +258,7 @@ p {
     justify-content: center;
     border: none;
     margin: none;
-    padding: none;
+    padding-top: 2vw;
 }
 
 .tline1 {
@@ -253,22 +267,29 @@ p {
     justify-content: center;
 }
 
+.tline1 p {
+    font-size: 3vw;
+}
+
 .tline2 {
     width: 50vw;
     display: flex;
     justify-content: center;
 }
 
+.tline2 p {
+    font-size: 3vw;
+}
+
 .tlineinfo {
     width: 50vw;
     display: flex;
     justify-content: center;
-    /* font-size: 4vw; */
 }
 
-/* .tlineinfo p {
-    font-size: 4vw;
-} */
+.tlineinfo p {
+    font-size: 1.75vw;
+}
 
 .OurStory {
     display: flex;
@@ -303,6 +324,14 @@ p {
     width: 80vw;
     display: flex;
     flex-direction: row;
+}
+
+.WPcss h2 {
+    color: slategray;
+}
+
+.WPcss h5 {
+    color: lightslategray;
 }
 
 .Women {
