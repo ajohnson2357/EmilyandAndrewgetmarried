@@ -81,75 +81,83 @@
         </ul>
     </nav>
 
-    <div class="Picture">
+    <!-- <div class="Picture">
         <img src="./Assets/kissing2.jpg">
-    </div>
-
-    <div class="WeddingParty">
-        <div class="WPcss">
-            <div class="Women">
-                <h2>Bridesmaids</h2>
-                <div class="Amy">
-                    <img src="./Assets/Amy.jpg" class="WP">
-                    <h5>Amy Seagren - Matron of Honor</h5>
-                </div>
-                <div class="Kait">
-                    <img src="#">
-                    <h5>Katie Agler - Bridesmaid</h5>
-                </div>
-                <div class="Bekah">
-                    <img src="#">
-                    <h5>Bekah Selking - Bridesmaid</h5>
-                </div>
-                <div class="Katie">
-                    <img src="#">
-                    <h5>Katie Curtis - Bridesmaid</h5>
-                </div>
-                <div class="Aubrey">
-                    <img src="#">
-                    <h5>Aubrey Carter - Bridesmaid</h5>
-                </div>
-                <div class="Steph">
-                    <img src="#">
-                    <h5>Stephanie Bramlett - Bridesmaid</h5>
-                </div>
-            </div>
-            <div class="Men">
-                <h2>Groomsmen</h2>
-                <div class="Jared">
-                    <img src="./Assets/jared.jpg" class="WP">
-                    <h5>Jared Popejoy - Best Man</h5>
-                </div>
-                <div class="Cooper">
-                    <img src="#">
-                    <h5>Cooper Johnson - Groomsmen</h5>
-                </div>
-                <div class="Gabe">
-                    <img src="#">
-                    <h5>Gabe Hoffman - Groomsmen</h5>
-                </div>
-                <div class="Cooper">
-                    <img src="#">
-                    <h5>Seth Hoffman - Groomsmen</h5>
-                </div>
-                <div class="Cooper">
-                    <img src="#">
-                    <h5>Garrett Snyder - Groomsmen</h5>
-                </div>
-                <div class="Cooper">
-                    <img src="#">
-                    <h5>Aaron Snyder - Groomsmen</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- <div class="map">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3065.8469703092787!2d-86.14162918430702!3d39.787989501560226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b50f9585c03f9%3A0x8b4b1206e436273f!2s1101%20E%2016th%20St%2C%20Indianapolis%2C%20IN%2046202!5e0!3m2!1sen!2sus!4v1595541725774!5m2!1sen!2sus"
-            width="100vw" height="75vh" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-            tabindex="0"></iframe>
     </div> -->
+    <div class="formspree">
+        <form action="https://formspree.io/xeqrvwwz" method="POST" id="my-form">
+            <label>
+            Your name:
+            </label>
+            <input type="text">
+            <label>
+                Your phone number:
+                </label>
+                <input type="tel" name="phone">
+            <label>
+                Your email:
+            </label>
+            <input type="text" name="_replyto">
+            <label>
+                Your message:
+            </label>
+            <textarea name="message"></textarea>
+
+            <!-- your other form fields go here -->
+
+            <button type="submit" id="my-form-button">Send</button>
+            <p id="my-form-status"></p>
+        </form>
+    </div>
+
+    <script>
+        window.addEventListener("DOMContentLoaded", function () {
+
+            // get the form elements defined in your form HTML above
+
+            var form = document.getElementById("my-form");
+            var button = document.getElementById("my-form-button");
+            var status = document.getElementById("my-form-status");
+
+            // Success and Error functions for after the form is submitted
+
+            function success() {
+                form.reset();
+                button.style = "display: none ";
+                status.innerHTML = "Thank you!";
+            }
+
+            function error() {
+                status.innerHTML = "Oops! There was a problem.";
+            }
+
+            // handle the form submission event
+
+            form.addEventListener("submit", function (ev) {
+                ev.preventDefault();
+                var data = new FormData(form);
+                ajax(form.method, form.action, data, success, error);
+            });
+        });
+
+        // helper function for sending an AJAX request
+
+        function ajax(method, url, data, success, error) {
+            var xhr = new XMLHttpRequest();
+            xhr.open(method, url);
+            xhr.setRequestHeader("Accept", "application/json");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState !== XMLHttpRequest.DONE) return;
+                if (xhr.status === 200) {
+                    success(xhr.response, xhr.responseType);
+                } else {
+                    error(xhr.status, xhr.response, xhr.responseType);
+                }
+            };
+            xhr.send(data);
+        }
+    </script>
+
 </body>
 
 </html>

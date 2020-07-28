@@ -34,7 +34,7 @@
         font-size: 4.5vw !important;
     }
 
-    .tline1, .tline2, .tlineinfo {
+    .tline1, .tline2, .tline3 {
         width: 75vw !important;
     }
 
@@ -107,6 +107,31 @@
         height: 11vw !important;
     }
 
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+    }
+    
+    label {
+        color: lightslategray;
+        width: 35vw !important;
+        margin-left: auto !important;
+        padding-left: 4.5vw !important;
+    }
+    
+    button {
+        width: 15vw !important;
+    }
+    
+    textarea, input {
+        width: 50vw !important;
+    }
+
+    button, optgroup, select {
+        margin: auto !important;
+    }
+
 }
 
 html, body {
@@ -149,6 +174,8 @@ h1 {
 
 .navbar-nav {
     width: 99vw;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .nav-item {
@@ -156,7 +183,7 @@ h1 {
     flex-direction: row;
     width: 75vw;
     margin: auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .Picture{
@@ -176,9 +203,14 @@ img {
 }
 
 .nav-link.active {
-    width: 10vw;
+    width: fit-content;
     color: White;
     font-size: 20px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .btn.btn-secondary.dropdown-toggle {
@@ -188,6 +220,8 @@ img {
 #dropdownMenuButton.btn.btn-secondary.dropdown-toggle {
     color: White;
     font-size: 20px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .dropdown-menu.show {
@@ -281,14 +315,14 @@ p {
     font-size: 3vw;
 }
 
-.tlineinfo {
+.tline3 {
     width: 50vw;
     display: flex;
     justify-content: center;
 }
 
-.tlineinfo p {
-    font-size: 1.75vw;
+.tline3 p {
+    font-size: 3vw;
 }
 
 .OurStory {
@@ -356,6 +390,35 @@ p {
     border-radius: 50%;
     width: 12vw;
     height: 12vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: lightslategray;
+    width: 20vw;
+    margin: auto;
+    padding-left: 7.25vw;
+}
+
+button {
+    width: 10vw;
+}
+
+textarea, input {
+    width: 20vw;
+}
+
+button, input, optgroup, select, textarea {
+    margin: auto;
+}
+
+#my-form-status {
+    display: flex;
+    justify-content: center;
 }
 
 .map {
