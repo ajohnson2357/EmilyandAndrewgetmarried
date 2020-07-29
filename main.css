@@ -114,7 +114,7 @@
     }
     
     label {
-        color: lightslategray;
+        color: rgb(120, 145, 153);
         width: 35vw !important;
         margin-left: auto !important;
         padding-left: 4.5vw !important;
@@ -128,6 +128,18 @@
         width: 50vw !important;
     }
 
+    #kidmessage {
+        display: flex;
+        justify-content: center;
+        color: palevioletred;
+        font-size: 3vw !important;
+        width: 85vw !important;
+        margin: auto;
+        padding-bottom: 2vw;
+        padding-top: 1.5vw;
+        text-align: center;
+    }
+
     button, optgroup, select {
         margin: auto !important;
     }
@@ -137,13 +149,13 @@
 html, body {
   height: 100%;
   width: 100%;
-  background: rgb(0, 54, 54);
+  background: rgb(3, 74, 85);
   padding: none;
   margin: 0;
 }
 
 p {
-    color: lightslategray;
+    color: seashell;
 }
 
 .Jumbotron {
@@ -161,7 +173,7 @@ h1 {
 #countdown {
     display: flex;
     justify-content: center;
-    color: lightslategray;
+    color: palevioletred;
     padding-top: .3vw;
     font-size: 20px;
 }
@@ -235,7 +247,7 @@ img {
 
 .dropdown-item:hover {
     background-color: transparent;
-    color: White;
+    color: palevioletred;
 }
 
 .WeddingDetails {
@@ -268,7 +280,7 @@ p {
 
 .Date p {
     font-size: 4.25vw;
-    color: slategray;
+    color: seashell;
 }
 
 .Location {
@@ -280,11 +292,11 @@ p {
 
 .Location p {
     font-size: 4.25vw;
-    color: slategray;
+    color: seashell;
 }
 
 .Timeline {
-    color: white;
+    color: seashell;
     font-weight: normal;
     font-size: 10vw;
     width: 99vw;
@@ -338,13 +350,13 @@ p {
 .OurStory h3 {
     display: flex;
     justify-content: center;
-    color: slategray;
+    color: palevioletred;
     margin-bottom: 2vw;
 }
 
 .OurStory p {
     font-size: 1vw;
-    color: lightslategray
+    color: seashell
 }
 
 .WeddingParty {
@@ -361,11 +373,11 @@ p {
 }
 
 .WPcss h2 {
-    color: slategray;
+    color: palevioletred;
 }
 
 .WPcss h5 {
-    color: lightslategray;
+    color: seashell;
 }
 
 .Women {
@@ -398,7 +410,7 @@ form {
 }
 
 label {
-    color: lightslategray;
+    color: seashell;
     width: 20vw;
     margin: auto;
     padding-left: 7.25vw;
@@ -419,6 +431,22 @@ button, input, optgroup, select, textarea {
 #my-form-status {
     display: flex;
     justify-content: center;
+}
+
+.knee {
+    margin: auto;
+}
+
+#kidmessage {
+    display: flex;
+    justify-content: center;
+    color: palevioletred;
+    font-size: 1vw;
+    width: 45vw;
+    margin: auto;
+    padding-bottom: 2vw;
+    padding-top: 1.5vw;
+    text-align: center;
 }
 
 .map {
