@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 1400px) {
+@media only screen and (max-device-width: 850px) {
     h1 {
         font-size: 7vw !important;
         display: flex;
@@ -126,6 +126,12 @@
     
     textarea, input {
         width: 50vw !important;
+    }
+
+    .sendbutton {
+        display: flex;
+        justify-content: center;
+        padding-top: 1.5vw !important;
     }
 
     #kidmessage {
@@ -418,6 +424,12 @@ label {
 
 button {
     width: 10vw;
+}
+
+.sendbutton {
+    display: flex;
+    justify-content: center;
+    padding-top: 1vw;
 }
 
 textarea, input {
