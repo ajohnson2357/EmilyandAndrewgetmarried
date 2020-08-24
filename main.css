@@ -78,27 +78,41 @@
         flex-direction: column;
         width: 50vw !important;
         font-size: 2vw;
-    }
-
-    .Women h5 {
-        font-size: 4vw;
-        margin-left: 3vw !important;
-    }
-
-    .Men h5 {
-        font-size: 4vw;
-    }
-
-    .Women h2 {
-        font-size: 7vw;
-    }
-
-    .Men h2 {
-        font-size: 7vw;
+        align-items: flex-end;
     }
     
-    .Amy, .Kait, .Bekah, .Katie, .Aubrey, .Steph, .Jared, .Cooper, .Gabe, .Seth, .Garrett, .Aaron {
+    .Amy, .Kait, .Bekah, .Katie, .Aubrey, .Steph  {
         width: 25vw;
+    }
+
+    .Jared, .Cooper, .Gabe, .Seth, .Garrett, .Aaron {
+        width: 25vw;
+        text-align: right !important;
+    }
+
+    .WPcss {
+        margin: auto;
+        width: 65vw;
+        display: flex;
+        flex-direction: row;
+        margin-right: 18vw !important;
+    }
+    
+    .WPcss h2.men{
+        color: palevioletred;
+        text-align: right;
+        font-size: 5vw !important;
+    }
+    
+    .WPcss h2.women{
+        color: palevioletred;
+        font-size: 5vw !important;
+    }
+    
+    .WPcss h5 {
+        color: seashell;
+        width: 25vw;
+        font-size: 3.5vw !important;
     }
 
     .WP {
@@ -367,17 +381,24 @@ img {
 
 .WPcss {
     margin: auto;
-    width: 80vw;
+    width: 65vw;
     display: flex;
     flex-direction: row;
+    margin-right: 24.5vw;
 }
 
-.WPcss h2 {
+.WPcss h2.men{
+    color: palevioletred;
+    text-align: right;
+}
+
+.WPcss h2.women{
     color: palevioletred;
 }
 
 .WPcss h5 {
     color: seashell;
+    width: 25vw;
 }
 
 .Women {
@@ -388,14 +409,18 @@ img {
 }
 
 .Men {
-    margin-left: 2vw;
     display: flex;
     flex-direction: column;
     width: 45vw;
 }
 
-.Amy, .Kait, .Bekah, .Katie, .Aubrey, .Steph, .Jared, .Cooper, .Gabe, .Seth, .Garrett, .Aaron {
+.Amy, .Kait, .Bekah, .Katie, .Aubrey, .Steph {
     width: 25vw;
+}
+
+.Jared, .Cooper, .Gabe, .Seth, .Garrett, .Aaron {
+    width: 25vw;
+    text-align: right;
 }
 
 .WP {
