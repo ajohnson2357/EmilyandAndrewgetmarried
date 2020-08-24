@@ -264,18 +264,12 @@ img {
     padding-bottom: none;
     display: flex;
     justify-content: center;
-    width: 99vw;
 }
 
 .Info {
     display: flex;
-    justify-content: center;
-}
-
-p {
-    display: flex;
-    margin: none;
-    font-size: 65px;
+    justify-content: space-between;
+    width: 50vw;
 }
 
 .Date {
@@ -285,7 +279,7 @@ p {
 }
 
 .Date p {
-    font-size: 4.25vw;
+    font-size: 4vw;
     color: seashell;
 }
 
@@ -297,7 +291,7 @@ p {
 }
 
 .Location p {
-    font-size: 4.25vw;
+    font-size: 4vw;
     color: seashell;
 }
 
