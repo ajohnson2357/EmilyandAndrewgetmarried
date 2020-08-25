@@ -34,6 +34,47 @@
         font-size: 4.5vw !important;
     }
 
+    .WeddingDetails {
+        color: white;
+        font-weight: bolder;
+        font-size: 20vw;
+        padding-top: .3vw;
+        padding-bottom: none;
+        display: flex;
+        justify-content: center;
+        width: 80vw;
+        margin: auto;
+    }
+
+    .Info {
+        display: flex;
+        justify-content: space-between;
+        width: 60vw !important;
+    }
+
+    .Date {
+        display: flex;
+        padding: none;
+        margin-bottom: none;
+    }
+    
+    .Date p {
+        font-size: 4vw;
+        color: seashell;
+    }
+    
+    .Location {
+        display: flex;
+        flex-direction: column;
+        padding: none;
+        margin-bottom: none;
+    }
+    
+    .Location p {
+        font-size: 4vw;
+        color: seashell;
+    }
+
     .tline1, .tline2, .tline3 {
         width: 75vw !important;
     }
@@ -125,12 +166,19 @@
     .Flowergirls h5 {
         color: seashell;
         font-size: 3.5vw !important;
+        width: 20vw;
+    }
+
+    .Flowergirls2 {
+        width: 60vw !important;
+        display: flex;
+        justify-content: space-between;
     }
 
     .Kampbell .WP2, .Katy .WP2, .Vaeda .WP2, .Rhys .WP2 {
         border-radius: 50% !important;
-        width: 11vw !important;
-        height: 11vw !important;
+        width: 15vw !important;
+        height: 15vw !important;
         padding-bottom: .5vw !important;
         align-self: center;
     }
@@ -143,6 +191,13 @@
     .Rhys h5 {
         color: seashell;
         font-size: 3.5vw !important;
+    }
+
+    .Cooper .WP {
+        border-radius: 50% !important;
+        width: 18vw !important;
+        height: 18vw !important;
+        padding-bottom: .5vw;
     }
 
     .WP {
