@@ -19,6 +19,10 @@
         padding-right: 0;
     }
 
+    .dropdown-item {
+        font-size: 3vw !important;
+    }
+
     .nav-item {
         display: flex !important;
         justify-content: space-between !important;
@@ -32,6 +36,7 @@
 
     p {
         font-size: 4.5vw !important;
+        text-align: -webkit-center;
     }
 
     .WeddingDetails {
@@ -92,18 +97,6 @@
         color: slategray;
         margin-bottom: 2vw;
     }
-
-    .WeddingParty {
-        padding-top: 3vw;
-        padding-bottom: 5vw;
-        color: lightslategray;
-    }
-    
-    .WPcss {
-        width: 80vw;
-        display: flex;
-        flex-direction: row;
-    }
     
     .Women {
         margin-left: 0 !important;
@@ -132,14 +125,14 @@
         text-align: right !important;
         padding-bottom: 1vw;
     }
-
+ 
     .WPcss {
         margin: auto;
         width: 65vw;
         display: flex;
         flex-direction: row;
         margin-right: 18vw !important;
-    }
+    } 
     
     .WPcss h2.men{
         color: palevioletred;
@@ -166,21 +159,33 @@
     .Flowergirls h5 {
         color: seashell;
         font-size: 3.5vw !important;
-        width: 20vw;
+        width: 21vw;
+        align-self: center;
+    }
+
+    .Flowergirls {
+        width: 80vw !important;
     }
 
     .Flowergirls2 {
-        width: 60vw !important;
+        width: 75vw !important;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
-    .Kampbell .WP2, .Katy .WP2, .Vaeda .WP2, .Rhys .WP2 {
+    .Kampbell .WP2, .Katy .WP2, .Vaeda .WP2 {
         border-radius: 50% !important;
-        width: 15vw !important;
-        height: 15vw !important;
+        width: 20vw !important;
+        height: 20vw !important;
         padding-bottom: .5vw !important;
-        align-self: center;
+        margin-right: 2vw;
+    }
+
+    .Rhys .WP2 {
+        border-radius: 50% !important;
+        width: 20vw !important;
+        height: 20vw !important;
+        padding-bottom: .5vw !important;
     }
 
     h2.ringbearer {
@@ -193,17 +198,10 @@
         font-size: 3.5vw !important;
     }
 
-    .Cooper .WP {
-        border-radius: 50% !important;
-        width: 18vw !important;
-        height: 18vw !important;
-        padding-bottom: .5vw;
-    }
-
     .WP {
         border-radius: 50% !important;
-        width: 11vw !important;
-        height: 11vw !important;
+        width: 20vw !important;
+        height: 20vw !important;
         padding-bottom: .5vw;
     }
 
