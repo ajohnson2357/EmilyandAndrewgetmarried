@@ -83,11 +83,13 @@
     
     .Amy, .Kait, .Bekah, .Katie, .Aubrey, .Steph  {
         width: 25vw;
+        padding-bottom: 1vw;
     }
 
     .Jared, .Cooper, .Gabe, .Seth, .Garrett, .Aaron {
         width: 25vw;
         text-align: right !important;
+        padding-bottom: 1vw;
     }
 
     .WPcss {
@@ -115,10 +117,39 @@
         font-size: 3.5vw !important;
     }
 
+    h2.flowergirls {
+        color: palevioletred;
+        font-size: 5vw !important;
+    }
+    
+    .Flowergirls h5 {
+        color: seashell;
+        font-size: 3.5vw !important;
+    }
+
+    .Kampbell .WP2, .Katy .WP2, .Vaeda .WP2, .Rhys .WP2 {
+        border-radius: 50% !important;
+        width: 11vw !important;
+        height: 11vw !important;
+        padding-bottom: .5vw !important;
+        align-self: center;
+    }
+
+    h2.ringbearer {
+        color: palevioletred;
+        font-size: 5vw !important;
+    }
+
+    .Rhys h5 {
+        color: seashell;
+        font-size: 3.5vw !important;
+    }
+
     .WP {
         border-radius: 50% !important;
         width: 11vw !important;
         height: 11vw !important;
+        padding-bottom: .5vw;
     }
 
     form {
@@ -415,18 +446,86 @@ img {
 }
 
 .Amy, .Kait, .Bekah, .Katie, .Aubrey, .Steph {
+    padding-bottom: 2vw;
     width: 25vw;
-}
+} 
 
 .Jared, .Cooper, .Gabe, .Seth, .Garrett, .Aaron {
     width: 25vw;
     text-align: right;
+    padding-bottom: 2vw;
+}
+
+.Flowergirls{
+    width: 65vw;
+    margin: auto;
+}
+
+.Flowergirls2 {
+    display: flex;
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.Kampbell, .Katy, .Vaeda {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2vw;
+}
+
+.Kampbell .WP2, .Katy .WP2, .Vaeda .WP2 {
+    border-radius: 50%;
+    width: 12vw;
+    height: 12vw;
+    padding-bottom: .5vw;
+    align-self: center;
+}
+
+h2.flowergirls {
+    color: palevioletred;
+    display: flex;
+    justify-content: center;
+}
+
+.Flowergirls h5 {
+    color: seashell;
+}
+
+.RingBearer {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 2vw;
+}
+
+.Rhys .WP2 {
+    border-radius: 50%;
+    width: 12vw;
+    height: 12vw;
+    padding-bottom: .5vw;
+    align-self: center;
+}
+
+h2.ringbearer {
+    color: palevioletred;
+}
+
+.Rhys h5 {
+    color: seashell;
 }
 
 .WP {
     border-radius: 50%;
     width: 12vw;
     height: 12vw;
+    padding-bottom: .5vw;
 }
 
 form {
