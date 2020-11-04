@@ -248,6 +248,22 @@
         margin: auto !important;
     }
 
+    .TravelInfo {
+        margin: auto !important;
+        text-align: center;
+        padding-top: 3vw;
+    }
+
+    .OurPictures{
+        display: flex;
+        justify-content: center;
+    }
+
+    .OurPictures a.nav-link.active {
+        font-size: 3vw !important;
+        color: seashell !important;
+    }
+
 }
 
 html, body {
@@ -630,6 +646,26 @@ button, input, optgroup, select, textarea {
     padding-bottom: 2vw;
     padding-top: 1.5vw;
     text-align: center;
+}
+
+.TravelInfo {
+    margin: auto !important;
+    text-align: center;
+    padding-top: 3vw;
+}
+
+.OurPictures{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.OurPictures a.nav-link.active:hover {
+    color: palevioletred;
+}
+
+.OurPictures a.nav-link.active {
+    font-size: 1.5vw;
+    color: seashell
 }
 
 .map {
