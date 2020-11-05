@@ -1,4 +1,112 @@
-@media only screen and (max-device-width: 850px) {
+@media only screen and (min-device-width: 750px) and (max-device-width: 1050px) {
+    .column1 img {
+        margin-left: auto;
+        margin-right: auto;
+        height: 10vh !important;
+        width: 10vw !important;
+    }
+
+    .column2 img {
+        margin-left: auto;
+        margin-right: auto;
+        height: 10vh !important;
+        width: 10vw !important;
+    }
+
+    #countdown {
+        font-size: 4vw !important;
+    }
+
+    .nav-link.active {
+        font-size: 2.5vw !important;
+    }
+
+    #dropdownMenuButton.btn.btn-secondary.dropdown-toggle {
+        font-size: 2.5vw !important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .dropdown-item {
+        font-size: 3vw !important;
+    }
+
+    .nav-item {
+        display: flex !important;
+        justify-content: space-between !important;
+        width: 90vw !important;
+    }
+
+    .OurStory p {
+        font-size: 2.5vw !important;
+        color: seashell;
+        text-align: center;
+    }    
+
+    .OurStory {
+        width: 90vw !important;
+        padding-top: 3vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .OurStory h3 {
+        display: flex;
+        justify-content: center;
+        color: slategray;
+        margin-bottom: 2vw;
+    }
+
+    #kidmessage {
+        display: flex;
+        justify-content: center;
+        color: palevioletred;
+        font-size: 3vw !important;
+        width: 85vw !important;
+        margin: auto;
+        padding-bottom: 2vw;
+        padding-top: 1.5vw;
+        text-align: center;
+    }
+
+    label {
+        display: flex;
+        justify-content: center;
+        padding: 0 !important;
+    }
+
+    textarea, input {
+        display: flex;
+        justify-content: center;
+        width: 30vw !important;
+    }
+
+    .TravelInfo p{
+    font-size: 2.5vw;
+    }
+
+    .buttonformodal button.btn.btn-default {
+        font-size: 2.5vw !important;
+    }
+
+    .OurStory {
+        width: 90vw !important;
+        padding-top: 3vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .OurStory h3 {
+        display: flex;
+        justify-content: center;
+        color: slategray;
+        margin-bottom: 2vw;
+    }
+}
+
+
+
+@media only screen and (max-device-width: 750px) {
     h1 {
         font-size: 7vw !important;
         display: flex;
@@ -96,7 +204,14 @@
         justify-content: center;
         color: slategray;
         margin-bottom: 2vw;
+        font-size: 6vw;
     }
+
+    .OurStory p {
+        font-size: 3.5vw !important;
+        color: seashell;
+        text-align: center;
+    }    
     
     .Women {
         margin-left: 0 !important;
@@ -210,20 +325,22 @@
         flex-direction: column;
         justify-content: center !important;
     }
-    
+
     label {
-        color: rgb(120, 145, 153);
-        width: 35vw !important;
-        margin-left: auto !important;
-        padding-left: 4.5vw !important;
+        display: flex;
+        justify-content: center;
+        padding: 0 !important;
+        width: 50vw !important;
+    }
+
+    textarea, input {
+        display: flex;
+        justify-content: center;
+        width: 60vw !important;
     }
     
     button {
         width: 15vw !important;
-    }
-    
-    textarea, input {
-        width: 50vw !important;
     }
 
     .sendbutton {
@@ -236,7 +353,7 @@
         display: flex;
         justify-content: center;
         color: palevioletred;
-        font-size: 3vw !important;
+        font-size: 3.5vw !important;
         width: 85vw !important;
         margin: auto;
         padding-bottom: 2vw;
@@ -257,11 +374,63 @@
     .OurPictures{
         display: flex;
         justify-content: center;
+        margin-top: 1.5vh;
     }
 
     .OurPictures a.nav-link.active {
         font-size: 3vw !important;
         color: seashell !important;
+    }
+
+    .modal-body {
+        display: flex;
+        justify-content: space-between;
+    } 
+    
+    .modal-body img {
+        margin-top: 2vh;
+    }
+    
+    .column1 {
+        float: left;
+        width: 45vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .column1 img {
+        margin-left: auto;
+        margin-right: auto;
+        height: 10vh !important;
+        width: 32vw !important;
+    }
+    
+    .column2 {
+        float: right;
+        width: 45vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .column2 img {
+        margin-left: auto;
+        margin-right: auto;
+        height: 10vh !important;
+        width: 32vw !important;
+    }
+    
+    .buttonformodal {
+        margin-top: 1.5vh;
+    }
+
+    .buttonformodal button.btn.btn-default {
+        font-size: 3vw !important;
+        width: 25vw !important;
+        display: flex;
+        justify-content: center;
+        color: seashell;
     }
 
 }
@@ -455,7 +624,7 @@ img {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 60vw;
+    width: 90vw;
     margin: auto;
     padding-bottom: 5vw;
     padding-top: 3vw;
@@ -469,8 +638,9 @@ img {
 }
 
 .OurStory p {
-    font-size: 1.5vw;
-    color: seashell
+    font-size: 1.25vw;
+    color: seashell;
+    text-align: center;
 }
 
 .WeddingParty {
@@ -652,11 +822,13 @@ button, input, optgroup, select, textarea {
     margin: auto !important;
     text-align: center;
     padding-top: 3vw;
+    font-size: 1.5vw;
 }
 
 .OurPictures{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 1vh;
 }
 
 .OurPictures a.nav-link.active:hover {
@@ -666,6 +838,113 @@ button, input, optgroup, select, textarea {
 .OurPictures a.nav-link.active {
     font-size: 1.5vw;
     color: seashell
+}
+ 
+.modal-body {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(3, 74, 85);
+} 
+
+.modal-body img {
+    margin-top: 2vh;
+}
+
+.column1 {
+    float: left;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.column1 img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 24vh;
+    width: 15vw;
+    border-radius: 10%;
+}
+
+.column2 {
+    float: right;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.column2 img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 24vh;
+    width: 15vw;
+    border-radius: 10%;
+}
+
+.buttonformodal {
+    margin-top: .75vh;
+}
+
+.buttonformodal button.btn.btn-default {
+    font-size: 1.5vw;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    color: seashell;
+    padding: 0;
+}
+
+.buttonformodal button.btn.btn-default:focus {
+    border: none;
+    outline: 0;
+}
+
+.buttonformodal button.btn.btn-default::shadow {
+    border: none;
+    outline: 0;
+}
+
+.buttonformodal button.btn.btn-default:hover {
+    color: palevioletred;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(3, 74, 85);
+    border-bottom: seashell;
+}
+
+.modal-header .close {
+    padding: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    height: 4.5vh;
+    width: 2vw;
+}
+
+button.close {
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close {
+    color: palevioletred;
+    text-shadow: none;
+    opacity: inherit;
+    float: right;
+}
+
+h3.modal-title {
+    text-align: center;
+    height: 4.5vh;
+    width: 96vw;
+    color: palevioletred;
 }
 
 .map {
