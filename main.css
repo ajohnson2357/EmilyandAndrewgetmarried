@@ -861,8 +861,8 @@ button, input, optgroup, select, textarea {
 .column1 img {
     margin-left: auto;
     margin-right: auto;
-    height: 24vh;
-    width: 15vw;
+    height: 32vh;
+    width: 18vw;
     border-radius: 10%;
 }
 
@@ -877,10 +877,34 @@ button, input, optgroup, select, textarea {
 .column2 img {
     margin-left: auto;
     margin-right: auto;
+    height: 32vh;
+    width: 18vw;
+    border-radius: 10%;
+}
+/* 
+.column2 img.square {
+    margin-left: auto;
+    margin-right: auto;
     height: 24vh;
     width: 15vw;
     border-radius: 10%;
+} */
+
+/* .column1 img.vert, .column2 img.vert {
+    margin-left: auto;
+    margin-right: auto;
+    height: 40vh;
+    width: 15vw;
+    border-radius: 10%;
 }
+
+.column1 img.horiz, .column2 img.horiz {
+    margin-left: auto;
+    margin-right: auto;
+    height: 20vh;
+    width: 18vw;
+    border-radius: 10%;
+} */
 
 .buttonformodal {
     margin-top: .75vh;
