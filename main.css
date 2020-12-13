@@ -2,15 +2,15 @@
     .column1 img {
         margin-left: auto;
         margin-right: auto;
-        height: 20vh !important;
-        width: 30vw !important;
+        height: 18vh !important;
+        width: 27vw !important;
     }
 
     .column2 img {
         margin-left: auto;
         margin-right: auto;
-        height: 20vh !important;
-        width: 30vw !important;
+        height: 18vh !important;
+        width: 27vw !important;
     }
 
     #countdown {
@@ -37,6 +37,39 @@
         width: 90vw !important;
     }
 
+    .WeddingDetails {
+        color: white;
+        font-weight: bolder;
+        font-size: 20vw;
+        padding-top: .3vw;
+        padding-bottom: none;
+        display: flex;
+        justify-content: center;
+        width: 85vw;
+        margin: auto;
+    }
+
+    .Info {
+        display: flex;
+        justify-content: space-between;
+        width: 98vw !important;
+    }
+
+    .Date {
+        display: flex;
+        padding: none;
+        margin-bottom: none;
+        width: 40vw !important;
+    }
+    
+    .Location {
+        display: flex;
+        flex-direction: column;
+        padding: none;
+        margin-bottom: none;
+        width: 36vw !important;
+    }
+
     .OurStory p {
         font-size: 2.5vw !important;
         color: seashell;
@@ -50,7 +83,7 @@
         flex-direction: column;
     }
 
-    .OurStory h3 {
+    .OurStory h2 {
         display: flex;
         justify-content: center;
         color: slategray;
@@ -81,10 +114,6 @@
         width: 30vw !important;
     }
 
-    .TravelInfo p{
-    font-size: 2.5vw;
-    }
-
     .buttonformodal button.btn.btn-default {
         font-size: 2.5vw !important;
     }
@@ -96,11 +125,61 @@
         flex-direction: column;
     }
 
-    .OurStory h3 {
+    .TravelInfo {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 1vh;
+    }
+    
+    .TravelInfo h2{
         display: flex;
         justify-content: center;
-        color: slategray;
-        margin-bottom: 2vw;
+        color: palevioletred;
+    }
+    
+    .Speedway a.nav-link.active{
+        margin: auto;
+        margin-bottom: 3vh;
+        text-align: center;
+
+    }
+    
+    .Fairfield a.nav-link.active{
+        margin: auto;
+        margin-bottom: 3vh;
+        text-align: center;
+    }
+    
+    .Speedway a.nav-link.active:hover {
+        color: palevioletred;
+    }
+    
+    .Fairfield a.nav-link.active:hover {
+        color: palevioletred;
+    }
+    
+    .Speedway p {
+        text-align: center;
+        width: 75%;
+        margin: auto;
+        margin-bottom: 3vh;
+        font-size: x-large;
+    }
+    
+    .Fairfield p {
+        text-align: center;
+        width: 75%;
+        margin: auto;
+        margin-bottom: 3vh;
+        font-size: x-large;
+    }
+    
+    .Speedway {
+        width: 48%;
+    }
+    
+    .Fairfield {
+        width: 48%;
     }
 }
 
@@ -155,25 +234,21 @@
         padding-bottom: none;
         display: flex;
         justify-content: center;
-        width: 80vw;
+        width: 85vw;
         margin: auto;
     }
 
     .Info {
         display: flex;
         justify-content: space-between;
-        width: 60vw !important;
+        width: 98vw !important;
     }
 
     .Date {
         display: flex;
         padding: none;
         margin-bottom: none;
-    }
-    
-    .Date p {
-        font-size: 4vw;
-        color: seashell;
+        width: 40vw !important;
     }
     
     .Location {
@@ -181,15 +256,21 @@
         flex-direction: column;
         padding: none;
         margin-bottom: none;
+        width: 42vw !important;
     }
-    
-    .Location p {
-        font-size: 4vw;
-        color: seashell;
+
+    .tline {
+        display: grid;
+        justify-content: center;
     }
 
     .tline1, .tline2, .tline3 {
-        width: 75vw !important;
+        width: 80vw !important;
+        text-align: center;
+    }
+
+    .tline1 h2, .tline2 h2, .tline3 h2 {
+        font-size: 5vw !important;
     }
 
     .OurStory {
@@ -199,7 +280,7 @@
         flex-direction: column;
     }
 
-    .OurStory h3 {
+    .OurStory h2 {
         display: flex;
         justify-content: center;
         color: slategray;
@@ -365,12 +446,6 @@
         margin: auto !important;
     }
 
-    .TravelInfo {
-        margin: auto !important;
-        text-align: center;
-        padding-top: 3vw;
-    }
-
     .OurPictures{
         display: flex;
         justify-content: center;
@@ -433,6 +508,63 @@
         color: seashell;
     }
 
+    .TravelInfo {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 1vh;
+    }
+    
+    .TravelInfo h2{
+        display: flex;
+        justify-content: center;
+        color: palevioletred;
+        font-size: x-large;
+    }
+    
+    .Speedway a.nav-link.active{
+        margin: auto;
+        margin-bottom: 3vh;
+        font-size: x-large;
+    }
+    
+    .Fairfield a.nav-link.active{
+        margin: auto;
+        margin-bottom: 3vh;
+        font-size: x-large;
+    }
+    
+    .Speedway a.nav-link.active:hover {
+        color: palevioletred;
+    }
+    
+    .Fairfield a.nav-link.active:hover {
+        color: palevioletred;
+
+    }
+    
+    .Speedway p {
+        text-align: center;
+        width: 75%;
+        margin: auto;
+        margin-bottom: 3vh;
+        font-size: large;
+    }
+    
+    .Fairfield p {
+        text-align: center;
+        width: 75%;
+        margin: auto;
+        margin-bottom: 3vh;
+        font-size: large;
+    }
+    
+    .Speedway {
+        width: 48%;
+    }
+    
+    .Fairfield {
+        width: 48%;
+    }
 }
 
 html, body {
@@ -551,7 +683,7 @@ img {
 
 .Info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 50vw;
 }
 
@@ -562,7 +694,7 @@ img {
 }
 
 .Date p {
-    font-size: 4vw;
+    font-size: 3.5vw;
     color: seashell;
 }
 
@@ -571,17 +703,18 @@ img {
     flex-direction: column;;
     padding: none;
     margin-bottom: none;
+    width: 60vw;
 }
 
 .Location p {
-    font-size: 4vw;
+    font-size: 3.5vw;
     color: seashell;
 }
 
 .Timeline {
     color: seashell;
     font-weight: normal;
-    font-size: 10vw;
+    font-size: 6vw;
     width: 99vw;
     display: flex;
     justify-content: center;
@@ -590,34 +723,29 @@ img {
     padding-top: 2vw;
 }
 
+
+.tline {
+    width: 65vw;
+}
 .tline1 {
-    width: 50vw;
+    width: 60vw;
     display: flex;
     justify-content: center;
-}
-
-.tline1 p {
-    font-size: 3vw;
+    margin-bottom: 2vh;
 }
 
 .tline2 {
-    width: 50vw;
+    width: 60vw;
     display: flex;
     justify-content: center;
-}
-
-.tline2 p {
-    font-size: 3vw;
+    margin-bottom: 2vh;
 }
 
 .tline3 {
-    width: 50vw;
+    width: 60vw;
     display: flex;
     justify-content: center;
-}
-
-.tline3 p {
-    font-size: 3vw;
+    margin-bottom: 2vh;
 }
 
 .OurStory {
@@ -630,7 +758,7 @@ img {
     padding-top: 3vw;
 }
 
-.OurStory h3 {
+.OurStory h2 {
     display: flex;
     justify-content: center;
     color: palevioletred;
@@ -818,13 +946,6 @@ button, input, optgroup, select, textarea {
     text-align: center;
 }
 
-.TravelInfo {
-    margin: auto !important;
-    text-align: center;
-    padding-top: 3vw;
-    font-size: 1.5vw;
-}
-
 .OurPictures{
     display: flex;
     justify-content: space-evenly;
@@ -881,30 +1002,6 @@ button, input, optgroup, select, textarea {
     width: 18vw;
     border-radius: 10%;
 }
-/* 
-.column2 img.square {
-    margin-left: auto;
-    margin-right: auto;
-    height: 24vh;
-    width: 15vw;
-    border-radius: 10%;
-} */
-
-/* .column1 img.vert, .column2 img.vert {
-    margin-left: auto;
-    margin-right: auto;
-    height: 40vh;
-    width: 15vw;
-    border-radius: 10%;
-}
-
-.column1 img.horiz, .column2 img.horiz {
-    margin-left: auto;
-    margin-right: auto;
-    height: 20vh;
-    width: 18vw;
-    border-radius: 10%;
-} */
 
 .buttonformodal {
     margin-top: .75vh;
@@ -976,5 +1073,57 @@ h3.modal-title {
     justify-content: center;
     border: none;
     padding: none;
-    margin-bottom: 5vw;
+    margin-bottom: 5vh;
+}
+
+.TravelInfo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1vh;
+}
+
+.TravelInfo h2{
+    display: flex;
+    justify-content: center;
+    color: palevioletred;
+}
+
+.Speedway a.nav-link.active{
+    margin: auto;
+    margin-bottom: 3vh;
+}
+
+.Fairfield a.nav-link.active{
+    margin: auto;
+    margin-bottom: 3vh;
+}
+
+.Speedway a.nav-link.active:hover {
+    color: palevioletred;
+}
+
+.Fairfield a.nav-link.active:hover {
+    color: palevioletred;
+}
+
+.Speedway p {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 3vh;
+}
+
+.Fairfield p {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 3vh;
+}
+
+.Speedway {
+    width: 48%;
+}
+
+.Fairfield {
+    width: 48%;
 }
