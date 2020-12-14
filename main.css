@@ -272,6 +272,7 @@
 
     .tline1 h2, .tline2 h2, .tline3 h2 {
         font-size: 5vw !important;
+        color: palevioletred;
     }
 
     .OurStory {
