@@ -256,7 +256,8 @@
         flex-direction: column;
         padding: none;
         margin-bottom: none;
-        width: 48vw !important;
+        width: 55vw !important;
+        color: palevioletred;
     }
 
     .tline {
