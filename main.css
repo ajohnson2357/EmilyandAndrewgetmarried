@@ -13,6 +13,12 @@
         width: 27vw !important;
     }
 
+    h1 {
+        font-size: 7vw !important;
+        display: flex;
+        justify-content: center;
+    }
+
     #countdown {
         font-size: 4vw !important;
     }
@@ -59,6 +65,7 @@
     .Info {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         width: 98vw !important;
     }
 
@@ -67,6 +74,7 @@
         padding: none;
         margin-bottom: none;
         width: 40vw !important;
+        text-align: center;
     }
     
     .Location {
@@ -75,7 +83,7 @@
         padding: none;
         margin-bottom: none;
         width: 50vw !important;
-        color: palevioletred;
+        text-align: center;
     }
 
     .OurStory p {
@@ -306,7 +314,6 @@
         padding: none;
         margin-bottom: none;
         width: 50vw !important;
-        color: palevioletred;
     }
 
     .tline {
