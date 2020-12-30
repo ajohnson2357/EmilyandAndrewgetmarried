@@ -229,9 +229,92 @@
         height: 65% !important;
         width: 65% !important;
     }
+
+    .Flowergirls {
+        width: 80vw !important;
+    }
+
+    .Flowergirls2 {
+        width: 75vw !important;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .Kampbell .WP2, .Katy .WP2, .Vaeda .WP2 {
+        border-radius: 50% !important;
+        width: 20vw !important;
+        height: 20vw !important;
+        padding-bottom: .5vw !important;
+        margin-right: 2vw;
+    }
+
+    .Rhys .WP2 {
+        border-radius: 50% !important;
+        width: 20vw !important;
+        height: 20vw !important;
+        padding-bottom: .5vw !important;
+    }
+
+    .WP {
+        border-radius: 50% !important;
+        width: 20vw !important;
+        height: 20vw !important;
+        padding-bottom: .5vw;
+    }
+
+    .Women {
+        margin-left: 0 !important;
+        display: flex;
+        flex-direction: column;
+        width: 50vw !important;
+        font-size: 2vw;
+    }
+    
+    .Men {
+        margin-left: 3vw;
+        display: flex;
+        flex-direction: column;
+        width: 50vw !important;
+        font-size: 2vw;
+        align-items: flex-end;
+    }
+    
+    .Amy, .Kait, .Bekah, .Katie, .Aubrey, .Steph  {
+        width: 25vw;
+        padding-bottom: 1vw;
+    }
+
+    .Jared, .Cooper, .Gabe, .Seth, .Danny, .DeBaun {
+        width: 25vw;
+        text-align: right !important;
+        padding-bottom: 1vw;
+    }
+ 
+    .WPcss {
+        margin: auto;
+        width: 65vw;
+        display: flex;
+        flex-direction: row;
+        margin-right: 18vw !important;
+    } 
+    
+    .WPcss h2.men{
+        color: palevioletred;
+        text-align: right;
+        font-size: 5vw !important;
+    }
+    
+    .WPcss h2.women{
+        color: palevioletred;
+        font-size: 5vw !important;
+    }
+    
+    .WPcss h5 {
+        color: seashell;
+        width: 25vw;
+        font-size: 3.5vw !important;
+    }
 }
-
-
 
 @media only screen and (max-device-width: 750px) {
     h1 {
