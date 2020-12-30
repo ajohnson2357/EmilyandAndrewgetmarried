@@ -1,4 +1,4 @@
-@media only screen and (min-device-width: 750px) and (max-device-width: 1050px) {
+@media only screen and (min-device-width: 751px) and (max-device-width: 1050px) {
     .column1 img {
         margin-left: auto;
         margin-right: auto;
@@ -52,7 +52,7 @@
         padding-bottom: none;
         display: flex;
         justify-content: center;
-        width: 85vw;
+        width: 98vw;
         margin: auto;
     }
 
@@ -74,7 +74,8 @@
         flex-direction: column;
         padding: none;
         margin-bottom: none;
-        width: 36vw !important;
+        width: 50vw !important;
+        color: palevioletred;
     }
 
     .OurStory p {
@@ -188,6 +189,37 @@
     
     .Fairfield {
         width: 48%;
+    }
+
+    .Timeline {
+        color: seashell;
+        font-weight: normal;
+        font-size: 6vw;
+        width: 99vw;
+        display: flex;
+        justify-content: center;
+        border: none;
+        margin: none;
+        padding-top: 2vw;
+    }
+
+    .tline {
+        display: grid;
+        justify-content: center;
+    }
+
+    .tline1, .tline2, .tline3 {
+        width: 80vw !important;
+        text-align: center;
+    }
+
+    .tline1 h2, .tline2 h2, .tline3 h2 {
+        font-size: 5vw !important;
+    }
+
+    img {
+        height: 65% !important;
+        width: 65% !important;
     }
 }
 
