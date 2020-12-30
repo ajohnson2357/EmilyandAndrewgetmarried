@@ -2,15 +2,15 @@
     .column1 img {
         margin-left: auto;
         margin-right: auto;
-        height: 18vh !important;
-        width: 27vw !important;
+        height: 27vh !important;
+        width: 25vw !important;
     }
 
     .column2 img {
         margin-left: auto;
         margin-right: auto;
-        height: 18vh !important;
-        width: 27vw !important;
+        height: 27vh !important;
+        width: 25vw !important;
     }
 
     h1 {
@@ -617,8 +617,8 @@
     .column1 img {
         margin-left: auto;
         margin-right: auto;
-        height: 14vh !important;
-        width: 32vw !important;
+        height: 27vh !important;
+        width: 25vw !important;
     }
     
     .column2 {
@@ -632,8 +632,8 @@
     .column2 img {
         margin-left: auto;
         margin-right: auto;
-        height: 14vh !important;
-        width: 32vw !important;
+        height: 27vh !important;
+        width: 25vw !important;
     }
     
     .buttonformodal {
