@@ -1,18 +1,4 @@
 @media only screen and (min-device-width: 751px) and (max-device-width: 1050px) {
-    .column1 img {
-        margin-left: auto;
-        margin-right: auto;
-        height: 27vh !important;
-        width: 25vw !important;
-    }
-
-    .column2 img {
-        margin-left: auto;
-        margin-right: auto;
-        height: 27vh !important;
-        width: 25vw !important;
-    }
-
     h1 {
         font-size: 7vw !important;
         display: flex;
@@ -130,9 +116,9 @@
         width: 30vw !important;
     }
 
-    .buttonformodal button.btn.btn-default {
+    /* .buttonformodal button.btn.btn-default {
         font-size: 2.5vw !important;
-    }
+    } */
 
     .OurStory {
         width: 90vw !important;
@@ -313,6 +299,76 @@
         color: seashell;
         width: 25vw;
         font-size: 3.5vw !important;
+    }
+
+    .PictureWall {
+        width: 78vw;
+        display: flow-root;
+        justify-content: space-evenly;
+        margin: auto;
+        padding-bottom: 10vh;
+    }
+    
+    .column1{
+        float: left;
+        width: 26vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .column1 .OurPic {
+        margin-left: auto;
+        margin-right: auto;
+        height: 32vh;
+        width: 18vw;
+        border-radius: 10%;
+        margin-top: 4vh;
+    }
+    
+    .column2 {
+        float: left;
+        width: 26vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .column2 .OurPic {
+        margin-left: auto;
+        margin-right: auto;
+        height: 32vh;
+        width: 18vw;
+        border-radius: 10%;
+        margin-top: 4vh;
+    }
+    
+    .column3 {
+        float: right;
+        width: 26vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .column3 .OurPic {
+        margin-left: auto;
+        margin-right: auto;
+        height: 32vh;
+        width: 18vw;
+        border-radius: 10%;
+        margin-top: 4vh;
+    }
+    
+    .title {
+        text-align: center;
+        height: .5vh !important;
+        width: 98vw;
+    } 
+    
+    .title p {
+        font-size: 2.5vw !important;
+        color: palevioletred;
     }
 }
 
@@ -592,51 +648,91 @@
         margin-top: 1.5vh;
     }
 
-    .OurPictures a.nav-link.active {
+    /* .OurPictures a.nav-link.active {
         font-size: 3vw !important;
         color: seashell !important;
-    }
+    } */
 
-    .modal-body {
+    /* .modal-body {
         display: flex;
         justify-content: space-between;
     } 
     
     .modal-body img {
         margin-top: 2vh;
+    } */
+    
+    .PictureWall {
+        width: 78vw;
+        display: flow-root;
+        justify-content: space-evenly;
+        margin: auto;
+        padding-bottom: 10vh;
     }
     
-    .column1 {
+    .column1{
         float: left;
-        width: 45vw;
+        width: 26vw;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
     
-    .column1 img {
+    .column1 .OurPic {
         margin-left: auto;
         margin-right: auto;
-        height: 27vh !important;
-        width: 25vw !important;
+        height: 32vh;
+        width: 18vw;
+        border-radius: 10%;
+        margin-top: 4vh;
     }
     
     .column2 {
-        float: right;
-        width: 45vw;
+        float: left;
+        width: 26vw;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
     
-    .column2 img {
+    .column2 .OurPic {
         margin-left: auto;
         margin-right: auto;
-        height: 27vh !important;
-        width: 25vw !important;
+        height: 32vh;
+        width: 18vw;
+        border-radius: 10%;
+        margin-top: 4vh;
     }
     
-    .buttonformodal {
+    .column3 {
+        float: right;
+        width: 26vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .column3 .OurPic {
+        margin-left: auto;
+        margin-right: auto;
+        height: 32vh;
+        width: 18vw;
+        border-radius: 10%;
+        margin-top: 4vh;
+    }
+    
+    .title {
+        text-align: center;
+        height: .5vh !important;
+        width: 98vw;
+    } 
+    
+    .title p {
+        font-size: 2.5vw !important;
+        color: palevioletred;
+    }
+    
+    /* .buttonformodal {
         margin-top: 1.5vh;
     }
 
@@ -646,7 +742,7 @@
         display: flex;
         justify-content: center;
         color: seashell;
-    }
+    } */
 
     .TravelInfo {
         display: flex;
@@ -1085,57 +1181,84 @@ button, input, optgroup, select, textarea {
 }
 
 .OurPictures a.nav-link.active:hover {
-    color: palevioletred;
+    color: seashell;
 }
 
 .OurPictures a.nav-link.active {
     font-size: 1.5vw;
-    color: seashell
-}
+    color: palevioletred;
+} 
  
-.modal-body {
+/* .modal-body {
     display: flex;
     justify-content: space-between;
     background-color: rgb(3, 74, 85);
-} 
-
+}  */
+/* 
 .modal-body img {
     margin-top: 2vh;
+} */
+
+.PictureWall {
+    width: 78vw;
+    display: flow-root;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 10vh;
 }
 
-.column1 {
+.column1{
     float: left;
-    width: 45vw;
+    width: 26vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.column1 img {
+.column1 .OurPic {
     margin-left: auto;
     margin-right: auto;
     height: 32vh;
     width: 18vw;
     border-radius: 10%;
+    margin-top: 4vh;
 }
 
 .column2 {
-    float: right;
-    width: 45vw;
+    float: left;
+    width: 26vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.column2 img {
+.column2 .OurPic {
     margin-left: auto;
     margin-right: auto;
     height: 32vh;
     width: 18vw;
     border-radius: 10%;
+    margin-top: 4vh;
 }
 
-.buttonformodal {
+.column3 {
+    float: right;
+    width: 26vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.column3 .OurPic {
+    margin-left: auto;
+    margin-right: auto;
+    height: 32vh;
+    width: 18vw;
+    border-radius: 10%;
+    margin-top: 4vh;
+}
+
+/* .buttonformodal {
     margin-top: .75vh;
     padding-bottom: 10vh;
 }
@@ -1192,12 +1315,16 @@ button.close {
     text-shadow: none;
     opacity: inherit;
     float: right;
-}
+} */
 
-h3.modal-title {
+.title {
     text-align: center;
     height: 4.5vh;
-    width: 96vw;
+    width: 98vw;
+} 
+
+.title p {
+    font-size: 1.5vw;
     color: palevioletred;
 }
 
