@@ -28,7 +28,7 @@
     <div id="countdown"></div>
     <script>
         function countdownTimer() {
-            const difference = +new Date("2021-07-10 15:30:00") - +new Date();
+            const difference = +new Date.parse("2021-07-10 15:30:00") - +new Date();
             let remaining = "We're Hitched!";
 
             if (difference > 0) {
