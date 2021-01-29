@@ -26,7 +26,39 @@
         <h1>The Johnson Wedding</h1>
     </div>
     <div id="countdown"></div>
-    <script>
+    <script type="text/javascript">
+        const second = 1000;
+        const minute = second * 60;
+        const hour = minute * 60;
+        const day = hour * 24;
+    
+        // Have to split time funny for IOS and Safari NAN and timezone bug
+        var timeParsed = '{{ "2021-07-10 15:30:00" }}'.replace(' ', 'T').split(/[^0-9]/);
+        var countDown = new Date(new Date (timeParsed[0],timeParsed[1]-1,timeParsed[2],timeParsed[3],timeParsed[4],timeParsed[5])).getTime();
+    
+        let x = setInterval(function() {
+            let now = new Date().getTime();
+            let distance = countDown - now;
+            if(Math.floor(distance / (day)) > 0) {
+                document.getElementById("days_line").style.display = "inline-block";
+            } else {
+                document.getElementById("days_line").style.display = "none";
+            }
+            document.getElementById('days').innerText = Math.floor(distance / (day));
+            document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour));
+            document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute));
+            document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+            if (distance < 0) {
+                clearInterval(x);
+                $('.counter-container').fadeOut(function() {
+                    $('.counter-message').fadeIn();
+                });
+            } else {
+                $('.counter-container').fadeIn();
+            }
+        }, second)
+    </script>
+    <!-- <script>
         function countdownTimer() {
             const difference = +new Date("2021/07/10T15:30:00Z") - +new Date();
             let remaining = "We're Hitched!";
@@ -51,7 +83,7 @@
 
         countdownTimer();
         setInterval(countdownTimer, 1000);
-    </script>
+    </script> -->
 
     <nav class="navbar navbar-expand-md">
         <ul class="navbar-nav">
